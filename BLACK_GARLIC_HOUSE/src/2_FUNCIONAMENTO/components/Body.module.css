@@ -1,0 +1,110 @@
+.fundo{
+    background: #CAD2C3;
+    height: 100%;
+}
+
+.fundo h1{
+    padding-block: 2rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.fundo h2{
+    margin-left: 1rem;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+.video img{
+    width: 23rem;
+}
+
+.preparo{
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.preparo li{
+    margin-left: 1rem;
+    text-align: justify;
+}
+
+.preparo img{
+    width: 9rem;
+    margin-bottom: 3.875rem;
+}
+
+.cuidados{
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.cuidados li{
+    margin-left: 1rem;
+    text-align: justify;
+}
+
+.cuidados img{
+    width: 9rem;
+    margin-bottom: 3.875rem;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 800px){
+    .video img{
+        width: 59rem;
+        margin-bottom: 4rem;
+    }
+
+    .fundo h1{
+        font-size: 3rem;
+    }
+
+    .fundo h2{
+        font-size: 2rem;
+        margin-left: 12.5%;
+        margin-top: 6.25rem;
+    }
+
+    .preparo{
+        width: 70%;
+        align-items: center;
+        margin-inline: 15%;
+    }
+
+    .preparo li{
+        font-size: 1.8rem;
+    }
+
+    .preparo img{
+        width: 15rem;
+        margin-left: 5rem;
+    }
+    
+    .cuidados{
+        width: 70%;
+        align-items: center;
+        margin-inline: 15%;
+    }
+
+    .cuidados li{
+        font-size: 1.8rem;
+    }
+
+    .cuidados img{
+        width: 15rem;
+        margin-left: 5rem;
+    }
+}

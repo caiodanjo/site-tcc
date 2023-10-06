@@ -1,0 +1,46 @@
+.fundo{
+    background: #CAD2C3;
+    height: 100%;
+    padding: 1rem;
+}
+
+.fundo h1{
+    padding-block: 1.375rem;
+    display: flex;
+    justify-content: center;
+}
+
+.fundo p{
+    text-align: justify;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.fundo figure{
+    margin-top: 1.375rem;
+    display: flex;
+    justify-content: center;
+}
+
+.fundo img{
+    width: 18.5rem;
+}
+
+@media (min-width: 800px){
+    .fundo h1, .fundo p, .fundo figure{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .fundo h1{
+        font-size: 3rem;
+    }
+
+    .fundo p{
+        font-size: 1.5rem;
+    }
+
+    .fundo img{
+        width: 30rem;
+    }
+}

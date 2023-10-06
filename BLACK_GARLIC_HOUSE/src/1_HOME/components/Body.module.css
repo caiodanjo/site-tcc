@@ -1,0 +1,118 @@
+.fundo{
+    background: #CAD2C3;
+    height: 100%;
+}
+
+.mobile_image {
+    width: 100%;
+    height: 17.375rem;
+    background-image: url(../images/image1_mobile.jpg);
+    background-size: cover;
+    background-position-y: 40%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.94rem;
+}
+
+.mobile_image::before {
+    content: '';
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+.mobile_image h1 {
+    position: absolute;
+    z-index: 1000;
+    color: white;
+    font-size: 6rem;
+}
+
+.objetivo{
+    background: #667969;
+    width: 20.8125rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.2rem;
+    margin-bottom: 7.25rem;
+    border-radius: 0.3rem;
+}
+
+.objetivo h1{
+    color: #29362E;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.625rem;
+}
+
+.objetivo p{
+    text-align: justify;
+    margin-bottom: 0rem;
+}
+
+.publico h1{
+    font-size: 1.40625rem;
+    color: #29362E;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.3125rem;
+}
+
+.publico p{
+    text-align: center;
+    width: 16.625rem;
+    margin-bottom: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mulherRegando{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mulherRegando img{
+    width: 11rem;
+    margin-bottom: 3.2rem;
+}
+
+@media (min-width: 800px){
+    .objetivo{
+        width: 60%;
+        height: 25rem;
+        padding: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    .objetivo h1{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .objetivo p{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .publico p{
+        width: 66%;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .publico h1{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .mulherRegando img{
+        width: 36rem;
+    }
+}

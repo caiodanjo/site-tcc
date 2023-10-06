@@ -1,0 +1,60 @@
+.fundo{
+    background: #CAD2C3;
+    height: 100%;
+    padding: 1rem;
+}
+
+.fundo h1{
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.links{
+    margin-bottom: 100%;
+}
+
+.links h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.links ul{
+    margin-left: 1rem;
+}
+
+.links li{
+    margin-top: 0.5rem;
+}
+
+.links a{
+    color: black;
+}
+
+.links a:hover{
+    color: #667969;
+}
+
+@media (min-width: 800px){
+    .fundo{
+        padding-left: 2rem;
+    }
+
+    .fundo h1{
+        font-size: 3rem;
+    }
+
+    .fundo p{
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .links h2{
+        font-size: 2rem;
+        margin-top: 4rem;
+    }
+
+    .links li{
+        font-size: 1.5rem;
+    }
+}

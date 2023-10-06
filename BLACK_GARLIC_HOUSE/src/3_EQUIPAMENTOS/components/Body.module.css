@@ -1,0 +1,101 @@
+.fundo{
+    background: #CAD2C3;
+    height: 100%;
+    padding-bottom: 3rem;
+}
+
+.fundo h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.equipamentos h1{
+    margin-bottom: 4rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.equipamentos p{
+    padding-inline: 2rem;
+    text-align: center;
+}
+
+.equipamentos figure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8rem;
+    padding-inline: 1.422rem;
+}
+
+.equipamentos img{
+    width: 10rem;
+    margin-right: 2rem;
+}
+
+.preco{
+    display: flex;
+    flex-direction: column;
+}
+
+.custo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custo p{
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+
+.custo img{
+    width: 15rem;
+}
+
+@media (min-width: 800px){
+    .fundo h1{
+        font-size: 3rem;
+    }
+
+    .equipamentos figure{
+        display: flex;
+        justify-content: center;
+    }
+
+    .equipamentos img{
+        width: 15rem;
+    }
+
+    .text{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+
+    .text div{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10rem;
+        width: 40%;
+        background: #667969;
+        padding: 2rem;
+        border-radius: 0.4rem;
+    }
+
+    .custo{
+        width: 30%;
+        background: #667969;
+        border-radius: 0.4rem;
+        margin-left: 35%;
+        margin-top: 3rem;
+    }
+
+    .custo p{
+        font-size: 1.5rem;
+    }
+}
