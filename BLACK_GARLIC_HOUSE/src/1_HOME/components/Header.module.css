@@ -28,6 +28,10 @@
     transition: translate .3s;
 }
 
+.menu::before{
+    position: absolute;
+}
+
 .menu nav{
     display: flex;
     flex-direction: column;

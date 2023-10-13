@@ -41,6 +41,10 @@
     flex-direction: column;
 }
 
+.preco h2{
+    text-align: center;
+}
+
 .custo{
     display: flex;
     justify-content: space-between;
@@ -53,7 +57,8 @@
 }
 
 .custo img{
-    width: 15rem;
+    width: 12rem;
+    margin-right: 2rem;
 }
 
 @media (min-width: 800px){
@@ -61,9 +66,14 @@
         font-size: 3rem;
     }
 
+    .fundo p{
+        font-size: 1.5rem;
+    }
+
     .equipamentos figure{
         display: flex;
         justify-content: center;
+        margin-bottom: 4rem;
     }
 
     .equipamentos img{
@@ -84,6 +94,7 @@
         width: 40%;
         background: #667969;
         padding: 2rem;
+        padding-bottom: 4rem;
         border-radius: 0.4rem;
     }
 
