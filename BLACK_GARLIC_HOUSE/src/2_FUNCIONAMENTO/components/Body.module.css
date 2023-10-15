@@ -15,8 +15,9 @@
     justify-content: center;
 }
 
-.video img{
-    width: 23rem;
+.video iframe{
+    width: 20rem;
+    height: 12rem;
 }
 
 .preparo{
@@ -66,8 +67,9 @@
 }
 
 @media (min-width: 800px){
-    .video img{
+    .video iframe{
         width: 59rem;
+        height: 32rem;
         margin-bottom: 4rem;
     }
 
