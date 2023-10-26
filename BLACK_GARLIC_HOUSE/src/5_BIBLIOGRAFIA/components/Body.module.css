@@ -50,6 +50,10 @@
         margin-left: 0;
     }
 
+    .links{
+        margin-bottom: 15%;
+    }
+
     .links h2{
         font-size: 2rem;
         margin-top: 4rem;

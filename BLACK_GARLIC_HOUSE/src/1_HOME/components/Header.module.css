@@ -23,7 +23,7 @@
     position: absolute;
     height: 92.5%;
     padding-block: 1rem;
-
+    z-index: 999;
     translate: -100%;
     transition: translate .3s;
 }
