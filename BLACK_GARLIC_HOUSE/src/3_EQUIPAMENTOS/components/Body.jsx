@@ -136,25 +136,6 @@ function Body() {
                         <p>A protoboard é uma ferramenta muito útil para os profissionais da área de utilização porque possibilita conectar diversos componentes, como capacitores, resistores, circuitos integrados, diodos, transistores, entre outros, permitindo uma precisão maior na montagem de circuitos</p>
                     </div>
                 </div>
-
-                <figure>
-                    <img src={led} />
-                    
-                    <div className={styles.preco}>
-                        <h2>Preço Médio:</h2>
-                        <p>R$0,20</p>
-                    </div>
-                </figure>
-                <div className={styles.text}>
-                    <div>
-                        <h1>O que é?</h1>
-                        <p>O LED é um componente bipolar, possui dois terminais chamados de ânodo e catodo, os quais determinam ou não a polarização do LED, ou seja, a forma a qual está polarizado determina a passagem ou não de corrente elétrica, esta ocasionando a ocorrência de luz.</p>
-                    </div>
-                    <div>
-                        <h1>O que faz?</h1>
-                        <p>Ele emite luz quando é energizado a partir de uma certa tensão e a corrente que passa por ele determina a intensidade dessa luz. A corrente máxima de cada porta do Arduíno é baixa, então não tem muito risco de queimar um LED.</p>
-                    </div>
-                </div>
             </div>
             
             <h1>Custo</h1>
