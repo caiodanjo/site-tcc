@@ -57,6 +57,7 @@ function Header() {
                 <h1>Black Garlic House</h1>
 
             <nav className={styles.desktop_options}>
+                <Link to="/">Home</Link>
                 <Link to="/funcionamento">Funcionamento</Link>
                 <Link to="/equipamentos">Equipamentos & custos</Link>
                 <Link to="/diferencial">Diferencial</Link>

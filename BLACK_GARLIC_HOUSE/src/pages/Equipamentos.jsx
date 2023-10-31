@@ -1,5 +1,5 @@
 import Body from "../3_EQUIPAMENTOS/components/Body"
-import Header from "../3_EQUIPAMENTOS/components/Header"
+import Header from "../1_HOME/components/Header"
 
 function Equipamentos() {
   return (

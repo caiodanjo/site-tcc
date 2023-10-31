@@ -54,12 +54,15 @@
 .desktop{
     display: none;
     height: 4rem;
-    padding-inline: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 .desktop h1{
     display: flex;
     align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    white-space: nowrap;
 }
 
 .desktop img{
@@ -69,14 +72,14 @@
 .desktop_options{
     display: flex;
     align-items: center;
-    margin-left: 15rem;
-    gap: 10rem;
+    margin-left: 5rem;
+    gap: 5rem;
 }
 
 .desktop_options a{
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: black;
 }
 
@@ -84,7 +87,7 @@
     text-decoration: underline;
 }
 
-@media (min-width: 800px){
+@media (min-width: 1320px){
     .mobile{
         display: none;
     }

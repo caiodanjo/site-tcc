@@ -1,5 +1,5 @@
 import Body from "../5_BIBLIOGRAFIA/components/Body"
-import Header from "../5_BIBLIOGRAFIA/components/Header"
+import Header from "../1_HOME/components/Header"
 
 function Bibliografia() {
   return (

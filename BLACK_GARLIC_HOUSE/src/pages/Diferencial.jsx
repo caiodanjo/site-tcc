@@ -1,5 +1,5 @@
 import Body from "../4_DIFERENCIAL/components/Body"
-import Header from "../4_DIFERENCIAL/components/Header"
+import Header from "../1_HOME/components/Header"
 
 function Diferencial() {
   return (

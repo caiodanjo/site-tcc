@@ -14,6 +14,12 @@ function Body() {
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/LY5WlaMYcp8?si=PG5R_TLsoEN1nbL9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
+            <div className={styles.funcionamento}>
+                <h1>Funcionamento</h1>
+                <p>Uma lâmpada incandescente foi utilizada para aquecer o alho. Ela ficará ligada até que a temperatura dentro da caixa, lida pelo sensor DHT11, alcance 75ºC. Quando isso acontecer, a lâmpada será desligada automáticamente, voltando a ligar apenas quando a temperatura abaixar. Além disso, do lado exterior há uma tela LCD que mostra quantos graus está dentro da caixa.</p>
+            </div>
+
+
                 <h1>Informações Gerais</h1>
 
                         <div className={styles.preparo}>

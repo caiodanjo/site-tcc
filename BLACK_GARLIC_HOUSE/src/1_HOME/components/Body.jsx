@@ -13,7 +13,7 @@ function Body() {
 
             <div className={styles.objetivo}>
                 <h1>Objetivo</h1>
-                <p>Nosso projeto consiste em criar uma estufa inteligente, utilizando Arduíno e outros componentes, como sensores e tela LCD para controle de temperatura e produção do alho negro.</p>
+                <p>Nosso projeto consiste em criar uma estufa inteligente, utilizando Arduíno e outros componentes, para produção de alho negro, permitindo o fácil acesso à esse ingrediente e, até mesmo, a produção de dinheiro através do produto final.</p>
             </div>
 
             <div className={styles.publico}>

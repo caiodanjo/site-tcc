@@ -20,6 +20,12 @@
     height: 12rem;
 }
 
+.funcionamento p{
+    margin-inline: 1rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
 .preparo{
     margin-inline: 1rem;
     display: flex;
@@ -81,6 +87,12 @@
         font-size: 2rem;
         margin-top: 6.25rem;
         margin-bottom: 2rem;
+    }
+
+    .funcionamento p{
+        font-size: 1.5rem;
+        margin-inline: 5rem;
+        margin-bottom: 8rem;
     }
 
     .preparo{
