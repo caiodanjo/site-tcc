@@ -11,6 +11,12 @@ function Body() {
                 <h1>Objetivo & Público</h1>
             </figure>
 
+            <div className={styles.alho}>
+                <h1>O que é o alho negro?</h1>
+                <p>O alho negro, muito famoso na cultura asiática, é um tipo de alho envelhecido, no qual seu escurecimento ocorre através do aquecimento de bulbos inteiros de alho. É um processo, chamado de reação de Maillard, que leva algumas semanas, resultando em dentes de alho escurecidos.</p>
+                <p>Devido ao recente ingresso do alho negro na culinária, a sua demanda tem aumentado em países ocidentais. Entretanto, por conta do seu longo processo de envelhecimento, em condições específicas de calor e umidade, o preço do alho negro costuma ser um tanto elevado.</p>
+            </div>
+
             <div className={styles.objetivo}>
                 <h1>Objetivo</h1>
                 <p>Nosso projeto consiste em criar uma estufa inteligente, utilizando Arduíno e outros componentes, para produção de alho negro, permitindo o fácil acesso à esse ingrediente e, até mesmo, a produção de dinheiro através do produto final.</p>

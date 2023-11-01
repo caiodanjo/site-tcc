@@ -32,9 +32,27 @@
     font-size: 1.875rem;
 }
 
+.alho{
+    margin-bottom: 2.4375rem;
+}
+
+.alho h1{
+    font-size: 1.40625rem;
+    color: #29362E;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.alho p{
+    text-align: center;
+    margin-inline: 2rem;
+    margin-bottom: 1rem;
+}
+
 .objetivo{
     background: #667969;
-    width: 20.8125rem;
+    width: 88%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -51,7 +69,7 @@
 }
 
 .objetivo p{
-    text-align: justify;
+    text-align: center;
 }
 
 .publico h1{
@@ -59,16 +77,13 @@
     color: #29362E;
     display: flex;
     justify-content: center;
-    margin-bottom: 0.3125rem;
+    margin-bottom: 0.5rem;
 }
 
 .publico p{
     text-align: center;
-    width: 16.625rem;
     margin-bottom: 3rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline: 2rem;
 }
 
 .mulherRegando{
@@ -88,7 +103,24 @@
     }
 
     .mobile_image h1{
-        font-size: 6rem;
+        font-size: 5.5rem;
+    }
+
+    .alho{
+        margin-bottom: 8rem;
+
+    }
+
+    .alho h1{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .alho p{
+        width: 66%;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-left: 17%;
     }
 
     .objetivo{
@@ -108,15 +140,15 @@
         text-align: center;
     }
 
+    .publico h1{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
     .publico p{
         width: 66%;
         font-size: 1.5rem;
         text-align: center;
-    }
-
-    .publico h1{
-        font-size: 3rem;
-        margin-bottom: 3rem;
     }
 
     .mulherRegando img{
