@@ -1,6 +1,6 @@
 .fundo{
-    background: #CAD2C3;
-    height: 100%;
+    background: #CAD2C3; 
+    height: 93vh;
     padding: 1rem;
 }
 
@@ -10,9 +10,9 @@
     font-size: 1.6rem;
 }
 
-.links{
+/*.links{
     margin-bottom: 50%;
-}
+}*/
 
 .links h2{
     margin-top: 2rem;
