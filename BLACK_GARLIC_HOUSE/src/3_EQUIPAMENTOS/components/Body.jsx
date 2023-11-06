@@ -142,7 +142,7 @@ function Body() {
 
             <div className={styles.custo}>
                 <div>
-                    <p>Custo total: R$346,16</p>
+                    <p>Custo total: R$726,16</p>
                 </div>
 
                 <figure>
