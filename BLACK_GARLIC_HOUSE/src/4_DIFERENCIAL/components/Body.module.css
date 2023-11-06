@@ -16,18 +16,19 @@
     margin-top: 1rem;
 }
 
-.fundo figure{
-    margin-top: 1.375rem;
-    display: flex;
-    justify-content: center;
+.projetoImg figure{
+    margin-top: 3rem;
 }
 
-.fundo img{
-    width: 18.5rem;
+.projetoImg img{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 @media (min-width: 800px){
-    .fundo h1, .fundo p, .fundo figure{
+    .fundo h1, .fundo p{
         width: 80%;
         margin-left: 10%;
     }
@@ -40,7 +41,9 @@
         font-size: 1.5rem;
     }
 
-    .fundo img{
-        width: 30rem;
+    .projetoImg img{
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 1rem;
     }
 }

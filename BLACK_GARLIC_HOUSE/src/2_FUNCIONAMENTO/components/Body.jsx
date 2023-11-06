@@ -11,7 +11,7 @@ function Body() {
             <h1>Vídeo do Projeto:</h1>
 
             <div className={styles.video}>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LY5WlaMYcp8?si=PG5R_TLsoEN1nbL9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Q2QHtWFfpfc?si=WVlbEi3bVXUyizza" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
             <div className={styles.funcionamento}>
