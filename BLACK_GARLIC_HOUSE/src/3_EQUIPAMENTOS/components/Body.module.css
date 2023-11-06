@@ -61,6 +61,11 @@
     margin-right: 2rem;
 }
 
+.custo span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 @media (min-width: 800px){
     .fundo h1{
         font-size: 3rem;
